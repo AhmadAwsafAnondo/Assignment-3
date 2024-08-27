@@ -310,13 +310,13 @@
           <img src="B10-Assignment-03-main/assets/img5.png" alt=""  class="sm:h-40 w-96 sm:w-auto"/>
         </div>
       </section>
-      <section class="w-full mx-36 my-52 h-[104vh] flex">
-        <div class="sm:flex mb-5 h-96 sm:gap-5 grid grid-cols-2">
+      <section class="w-4/5 mx-36 my-40 h-[104vh] flex">
+        <div class="flex gap-5 h-[55%] -mx-10 w-3/4 my-60 sm:my-0 sm:mx-auto sm:mr-52">
           <div>
             <img
               src="B10-Assignment-03-main/assets/1.png"
               alt=""
-              class="rounded-2xl mb-5 sm:mb-10"
+              class="rounded-2xl mb-10"
             />
             <img
               src="B10-Assignment-03-main/assets/2.png"
@@ -333,11 +333,12 @@
             <img
               src="B10-Assignment-03-main/assets/4.png"
               alt=""
-              class="rounded-2xl sm:w-3/4 -my-5"
+              class="rounded-2xl w-3/4"
             />
           </div>
         </div>
-        <div class="sm:w-1/2 sm:my-auto">
+        <div class="sm:w-1/2 my-20 -mt-20 -ml-72 w-96
+        sm:my-20">
           <h1 class="font-bold text-3xl mb-5">
             Flexibility and options to suit your lifestyle.
           </h1>
@@ -367,7 +368,7 @@
           <h1 class="font-bold text-4xl text-center mb-5">
             Let’s Discuss Next Project
           </h1>
-          <p class="w-1/2 mx-auto text-center">
+          <p class="w-3/4 mx-auto text-center">
             The barn house captivates with its blend of rustic charm and modern
             sophistication, featuring weathered wood, sleek metal accents.
           </p>
@@ -378,8 +379,8 @@
             alt=""
             class="-my-56 absolute inset-0 object-cover z-[-1] w-full h-[45rem]"
           />
-          <form action="" class="absolute z-[1] my-20 mx-60">
-            <div class="flex mx-auto gap-60 justify-center">
+          <form action="" class="absolute z-[1] sm:my-20 sm:mx-60 mx-8 my-5">
+            <div class="sm:flex sm:mx-auto sm:gap-60 sm:justify-center">
               <div class="relative z-[1] flex flex-col">
                 <input
                   type="text"
@@ -387,41 +388,44 @@
                   id="first_name"
                   placeholder="First Name*"
                   required
-                  class="p-4 rounded-full border border-gray-400 mb-5 w-[200%]"
+                  class="p-4 rounded-full border border-gray-400 mb-5 sm:w-[200%] w-[200%]"
                 />
-                <input
-                  type="text"
-                  name="phone"
-                  id="phone"
-                  placeholder="Phone Number*"
-                  required
-                  class="p-4 rounded-full border border-gray-400 mb-5 w-[200%]"
-                />
-                <textarea name="message" id="message" class="resize-none text-gray-400 p-4 rounded-2xl border border-gray-400 mb-5 w-[411%] h-[2/5]">
-Write your message here</textarea
-                >
+                <input type="text" placeholder="Last Name*" required class="p-4 rounded-full border border-gray-400 mb-5 w-[200%]"/>
               </div>
               <div class="flex flex-col">
-                <input type="text" placeholder="Last Name*" required class="p-4 rounded-full border border-gray-400 mb-5 w-[200%]"/>
+                <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number*"
+                required
+                class="p-4 rounded-full border border-gray-400 mb-5 w-[200%]"
+                />
+                
                 <input type="email" placeholder="Email" class="p-4 rounded-full border border-gray-400 mb-5 w-[200%]"/>
+                <textarea name="message" id="message" class="resize-none text-gray-400 p-4 rounded-2xl border border-gray-400 mb-5 sm:w-[411%] w-[200%] sm:-mx-[210%] h-[2/5]">
+                  Write your message here</textarea
+                  >
+                </div>
               </div>
-            </div>
-            <input type="button" value="Send Mail" class="btn bg-clifford rounded-full text-lg align-middle w-[133%] font-bold" />
+              <input type="button" value="Send Mail" class="btn bg-clifford rounded-full text-lg align-middle sm:w-[133%] w-[200%] font-bold" />
           </form>
         </div>
       </section>
     </main>
-    <footer class="bg-[#1C1C1C] my-[35%] h-[30vw] mb-[0%] mr-[0%]">
+
+
+    <footer class="bg-[#1C1C1C] sm:my-[35%] my-[100%] h-0 mb-0 mr-[0%]">
       <section>
-        <div class="flex flex-col items-center justify-center h-[60vh] w-full bg-[#1C1C1C]">
+        <div class="flex flex-col items-center justify-center sm:h-[60vh] h-[60vh] w-full bg-[#1C1C1C]">
           <div class="text-center">
             <div class="mb-6">
               <img
                 src="B10-Assignment-03-main/assets/arrow-up-right-01.png"
                 alt=""
-                class="mx-[39%] -my-[10%]"
+                class="sm:mx-[39%] sm:-my-[10%] mx-[30%] -my-[13%]"
               />
-              <h1 class="font-bold text-3xl text-white my-[6%] mb-[5%]">Rinterio</h1>
+              <h1 class="font-bold text-3xl text-white my-[6%] mb-[5%] ">Rinterio</h1>
             </div>
             <p class="text-white mt-6 w-3/4 text-center mx-auto">
               The barn house captivates with its blend of rustic charm and modern
@@ -430,10 +434,19 @@ Write your message here</textarea
           </div>
         </div>
       </section>
-      <section class="bg-[#1C1C1C]">
-        <ul class="flex justify-center gap-20 -my-[9%]">
+      <section class="bg-[#1C1C1C] h-[55vh] sm:h-[40vh]">
+        <ul class="sm:flex sm:flex-row 
+        text-center sm:justify-center 
+        sm:gap-20 
+        sm:-my-[9%] 
+        -my-[20%] 
+        -mb-8 
+        h-56 
+        flex 
+        flex-col 
+        justify-between">
           <li>
-            <a href="index.html" class="text-white font-bold">Home</a>
+            <a href="index.html" class="text-white font-bold ">Home</a>
           </li>
           <li>
             <a href="index.html" class="text-white">Services</a>
@@ -448,8 +461,12 @@ Write your message here</textarea
             <a href="index.html" class="text-white">Contact Us</a>
           </li>
         </ul>
-        <div class="my-[12%]  absolute mx-[42.5%]">
-          <button class="btn bg-clifford rounded-full text-lg align-middle">
+        <div class="my-[12%]  absolute 
+        sm:mx-[35%] 
+        sm:my-0
+        mx-10 
+        sm:w-48">
+          <button class="btn bg-clifford rounded-full text-lg align-middle w-[225%]">
             Book Consult
             <img
               src="B10-Assignment-03-main/assets/arrow-up-right-01 black.png"
@@ -459,6 +476,5 @@ Write your message here</textarea
         </div>
       </section>
     </footer>
-    
   </body>
 </html>
